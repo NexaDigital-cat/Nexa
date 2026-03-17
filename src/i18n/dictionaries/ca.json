@@ -1,0 +1,181 @@
+{
+  "header": {
+    "services": "Serveis",
+    "process": "Com Treballem",
+    "portfolio": "Casos d'èxit",
+    "cta": "Parlem-ne"
+  },
+  "hero": {
+    "title": "Creem pàgines web que criden clients al teu negoci.",
+    "subtitle": "Deixa de perdre oportunitats perquè els teus clients no et troben a internet. Dissenyem la teva presència digital de forma senzilla, ràpida i optimitzada per a web y dispositius mòbils.",
+    "ctaPrimary": "Demana un pressupost",
+    "ctaSecondary": "Casos d'èxit",
+    "floatingBadge": {
+      "title": "Llançament Ràpid",
+      "text": "Disseny llest en 2 setmanes"
+    },
+    "avatarsText": "Ja confien en nosaltres més de 50 autònoms."
+  },
+  "services": {
+    "overtitle": "Els nostres serveis",
+    "title": "Solucions digitals a la teva mida",
+    "description": "Ens adaptem al moment vital del teu negoci, oferint des d'una carta de presentació fins a plataformes complexes de venda online.",
+    "items": [
+      {
+        "title": "Webs Corporatives",
+        "description": "Pàgines onepager o completes per a captar leads, dissenyades per transmetre professionalitat i confiança al teu públic."
+      },
+      {
+        "title": "Botigues Online",
+        "description": "E-commerce segur, escalable i autogestionable per a que puguis vendre els teus productes 24/7 sense complicacions tècniques."
+      },
+      {
+        "title": "Landing Pages",
+        "description": "Si fas campanyes de publicitat o llançaments, creem pàgines ultra-optimitzades exclusivament per a aconseguir la conversió."
+      },
+      {
+        "title": "Manteniment Web",
+        "description": "Ens ocupem d'actualitzar, fer còpies de seguretat i que la teva pàgina estigui segura tot l'any perquè tu només pensis en el teu negoci."
+      }
+    ]
+  },
+  "process": {
+    "overtitle": "Com Treballem",
+    "title": "Un procés transparent dissenyat perquè no perdis temps",
+    "description": "Oblida't del llenguatge tècnic complicat i les despeses en enllaços ocults. Som clars, efectius i proactius.",
+    "stepPrefix": "Pas",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Reunió de descobriment",
+        "description": "Una trucada ràpida on entenem el teu model de negoci, què et fa únic i qui és el teu client ideal."
+      },
+      {
+        "number": "02",
+        "title": "Proposta i disseny",
+        "description": "Preparem l'estructura visual i els textos amb l'enfocament tècnic perfecte per aconseguir el teu objectiu."
+      },
+      {
+        "number": "03",
+        "title": "Desenvolupament",
+        "description": "Programem la teva web a mida amb tecnologia d'avantguarda, assegurant la màxima velocitat de càrrega i SEO en ment."
+      },
+      {
+        "number": "04",
+        "title": "Llançament i suport",
+        "description": "Entreguem el projecte claus en mà. T'ensenyem a fer canvis si ho desitges o ens deixes el manteniment a nosaltres."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Impulsa el teu negoci avui mateix",
+    "description": "Si vols més clients, una millor imatge i que els teus processos siguin eficients, contacta amb nosaltres per una consultoria inicial gratis.",
+    "form": {
+      "name": "Nom complet",
+      "email": "E-mail professional",
+      "message": "En què et podem ajudar?",
+      "submit": "Enviar missatge",
+      "submitting": "Enviant..."
+    },
+    "success": "Gràcies! Hem rebut el teu missatge. Et contestarem aviat.",
+    "error": "Error a l'enviar el missatge. Si us plau, proveu de nou."
+  },
+  "portfolio": {
+    "back": "Tornar a l'inici",
+    "title": "Casos",
+    "titleHighlight": "d'èxit",
+    "description": "El millor aval de la nostra feina són els resultats dels nostres clients. Descobreix com transformem petits negocis en referents digitals.",
+    "visitWeb": "Visitar web actual",
+    "keyImpact": "Impacte clau",
+    "tech": "Tecnologies",
+    "projects": [
+      {
+        "id": 1,
+        "client": "Cafè de l'Estació",
+        "category": "Restauració",
+        "title": "Una web autèntica per a una cafeteria històrica",
+        "description": "Vam renovar completament la presència digital del Cafè de l'Estació, incloent-hi un sistema intel·ligent per visualitzar el menú ràpidament amb codis QR integrats i un formulari de reserves que ha augmentat les seves taules plenes un 30%.",
+        "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1200",
+        "stats": [
+          { "label": "Augment de reserves", "value": "+30%" },
+          { "label": "Temps de càrrega", "value": "0.8s" }
+        ],
+        "tech": ["Next.js", "Tailwind CSS", "Framer Motion"],
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "client": "Clínica Dental Somriures",
+        "category": "Salut",
+        "title": "Més pacients, menys trucades perdudes",
+        "description": "Disseny d'una web 'clean' i transpiradora de confiança per a una clínica dental. Hem automatitzat l'entrada i derivació d'interessats directament pel WhatsApp de recepció amb un botó flotant, simplificant i agilitzant la primera visita.",
+        "image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=1200",
+        "stats": [
+          { "label": "Contactes/mes", "value": "+45" },
+          { "label": "Conversió web", "value": "8.5%" }
+        ],
+        "tech": ["React", "Typescript", "WhatsApp API"],
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "client": "Fusteria Artesana Martí",
+        "category": "Serveis Locals",
+        "title": "Artesania tradicional exhibida en una galeria digital",
+        "description": "Una fusteria d'autor que només funcionava gràcies al 'boca-orella' ara disposa d'un catàleg immersiu digital que transmet qualitat top-premium. Utilitzem imatges enormes i carrusels fluids que enamoren els clients inclús abans de sol·licitar pressupost.",
+        "image": "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&q=80&w=1200",
+        "stats": [
+          { "label": "Presupostos alts", "value": "+20%" },
+          { "label": "Visites orgàniques", "value": "+150%" }
+        ],
+        "tech": ["Next.js", "SEO Avançat", "GSAP"],
+        "link": "#"
+      }
+    ]
+  },
+  "legalPage": {
+    "title": "Avís Legal",
+    "lastUpdated": "Darrera actualització: Octubre 2023",
+    "content": [
+      {
+        "heading": "1. Dades de l'empresa",
+        "text": "En compliment de l'article 10 de la Llei 34/2002, d'11 de juliol, de Serveis de la Societat de la Informació i Comerç Electrònic (LSSICE), a continuació es detallen les dades identificatives del titular: Nexa Digital. Correu electrònic de contacte: nexainforma@gmail.com."
+      },
+      {
+        "heading": "2. Propietat intel·lectual i industrial",
+        "text": "El disseny del portal i els seus codis font, així com els logos, marques i altres signes distintius que hi apareixen, pertanyen a Nexa Digital o als seus respectius propietaris i estan protegits pels corresponents drets de propietat intel·lectual i industrial."
+      },
+      {
+        "heading": "3. Responsabilitat dels continguts",
+        "text": "Nexa Digital no es fa responsable de la legalitat d'altres llocs web de tercers des dels quals es pugui accedir al portal. Tampoc respon per la legalitat d'altres llocs web de tercers als quals poguessin estar enllaçats."
+      }
+    ]
+  },
+  "privacyPage": {
+    "title": "Política de Privacitat",
+    "lastUpdated": "Darrera actualització: Octubre 2023",
+    "content": [
+      {
+        "heading": "1. Informació sobre el tractament de dades",
+        "text": "De conformitat amb el que disposa el Reglament General de Protecció de Dades (RGPD), informem que les dades personals facilitades a través dels formularis d'aquesta web seran tractades de forma confidencial."
+      },
+      {
+        "heading": "2. Finalitat del tractament",
+        "text": "La finalitat del tractament de les dades és únicament respondre a les consultes plantejades i gestionar els pressupostos sol·licitats."
+      },
+      {
+        "heading": "3. Drets dels usuaris",
+        "text": "L'usuari podrà exercir en qualsevol moment els seus drets d'accés, rectificació, cancel·lació i oposició escrivint a nexainforma@gmail.com."
+      }
+    ]
+  },
+  "footer": {
+    "brandSubtitle": "Especialitzats en empènyer petits negocis cap al futur digital a través de pàgines web professionals i a mida.",
+    "quickLinks": "Enllaços ràpids",
+    "contact": "Contacte",
+    "location": "Catalunya, Espanya",
+    "rights": "Nexa Digital. Tots els drets reservats.",
+    "privacy": "Política de Privacitat",
+    "legal": "Avís Legal"
+  }
+}

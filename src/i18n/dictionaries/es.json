@@ -1,0 +1,181 @@
+{
+  "header": {
+    "services": "Servicios",
+    "process": "Cómo Trabajamos",
+    "portfolio": "Casos de éxito",
+    "cta": "Hablemos"
+  },
+  "hero": {
+    "title": "Creamos páginas web que atraen clientes a tu negocio.",
+    "subtitle": "Deja de perder oportunidades porque tus clientes no te encuentran en internet. Diseñamos tu presencia digital de forma sencilla, rápida y optimizada para web y móviles.",
+    "ctaPrimary": "Pide un presupuesto",
+    "ctaSecondary": "Casos de éxito",
+    "floatingBadge": {
+      "title": "Lanzamiento Rápido",
+      "text": "Diseño listo en 2 semanas"
+    },
+    "avatarsText": "Ya confían en nosotros más de 50 autónomos."
+  },
+  "services": {
+    "overtitle": "Nuestros servicios",
+    "title": "Soluciones digitales a tu medida",
+    "description": "Nos adaptamos al momento vital de tu negocio, ofreciendo desde una carta de presentación hasta plataformas complejas de venta online.",
+    "items": [
+      {
+        "title": "Webs Corporativas",
+        "description": "Páginas onepager o completas para captar leads, diseñadas para transmitir profesionalidad y confianza a tu público."
+      },
+      {
+        "title": "Tiendas Online",
+        "description": "E-commerce seguro, escalable y autogestionable para que puedas vender tus productos 24/7 sin complicaciones técnicas."
+      },
+      {
+        "title": "Landing Pages",
+        "description": "Si haces campañas de publicidad o lanzamientos, creamos páginas ultra-optimizadas exclusivamente para conseguir la conversión."
+      },
+      {
+        "title": "Mantenimiento Web",
+        "description": "Nos ocupamos de actualizar, hacer copias de seguridad y que tu página esté segura todo el año para que tú solo pienses en tu negocio."
+      }
+    ]
+  },
+  "process": {
+    "overtitle": "Cómo Trabajamos",
+    "title": "Un proceso transparente diseñado para que no pierdas tiempo",
+    "description": "Olvídate del lenguaje técnico complicado y los gastos en enlaces ocultos. Somos claros, efectivos y proactivos.",
+    "stepPrefix": "Paso",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Reunión de descubrimiento",
+        "description": "Una breve llamada donde entendemos tu modelo de negocio, qué te hace único y quién es tu cliente ideal."
+      },
+      {
+        "number": "02",
+        "title": "Propuesta y diseño",
+        "description": "Preparamos la estructura visual y los textos con el enfoque técnico perfecto para conseguir tu objetivo."
+      },
+      {
+        "number": "03",
+        "title": "Desarrollo",
+        "description": "Programamos tu web a medida con tecnología de vanguardia, asegurando la máxima velocidad de carga y SEO en mente."
+      },
+      {
+        "number": "04",
+        "title": "Lanzamiento y soporte",
+        "description": "Entregamos el proyecto llave en mano. Te enseñamos a hacer cambios si lo deseas o nos dejas el mantenimiento a nosotros."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Impulsa tu negocio hoy mismo",
+    "description": "Si quieres más clientes, una mejor imagen y que tus procesos sean eficientes, contacta con nosotros para una consultoría inicial gratis.",
+    "form": {
+      "name": "Nombre completo",
+      "email": "E-mail profesional",
+      "message": "¿En qué te podemos ayudar?",
+      "submit": "Enviar mensaje",
+      "submitting": "Enviando..."
+    },
+    "success": "¡Gracias! Hemos recibido tu mensaje. Te responderemos pronto.",
+    "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
+  },
+  "portfolio": {
+    "back": "Volver al inicio",
+    "title": "Casos",
+    "titleHighlight": "de éxito",
+    "description": "El mejor aval de nuestro trabajo son los resultados de nuestros clientes. Descubre cómo transformamos pequeños negocios en referentes digitales.",
+    "visitWeb": "Visitar web actual",
+    "keyImpact": "Impacto clave",
+    "tech": "Tecnologías",
+    "projects": [
+      {
+        "id": 1,
+        "client": "Cafè de l'Estació",
+        "category": "Restauración",
+        "title": "Una web auténtica para una cafetería histórica",
+        "description": "Renovamos completamente la presencia digital del Cafè de l'Estació, incluyendo un sistema inteligente para visualizar el menú rápidamente con códigos QR integrados y un formulario de reservas que ha aumentado sus mesas llenas un 30%.",
+        "image": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1200",
+        "stats": [
+          { "label": "Aumento de reservas", "value": "+30%" },
+          { "label": "Tiempo de carga", "value": "0.8s" }
+        ],
+        "tech": ["Next.js", "Tailwind CSS", "Framer Motion"],
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "client": "Clínica Dental Somriures",
+        "category": "Salud",
+        "title": "Más pacientes, menos llamadas perdidas",
+        "description": "Diseño de una web 'clean' y transpiradora de confianza para una clínica dental. Hemos automatizado la entrada y derivación de interesados directamente por el WhatsApp de recepción con un botón flotante, simplificando y agilizando la primera visita.",
+        "image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=1200",
+        "stats": [
+          { "label": "Contactos/mes", "value": "+45" },
+          { "label": "Conversión web", "value": "8.5%" }
+        ],
+        "tech": ["React", "Typescript", "WhatsApp API"],
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "client": "Fusteria Artesana Martí",
+        "category": "Servicios Locales",
+        "title": "Artesanía tradicional exhibida en una galería digital",
+        "description": "Una carpintería de autor que solo funcionaba gracias al 'boca a boca' ahora dispone de un catálogo inmersivo digital que transmite calidad top-premium. Utilizamos imágenes enormes y carruseles fluidos que enamoran a los clientes incluso antes de solicitar presupuesto.",
+        "image": "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&q=80&w=1200",
+        "stats": [
+          { "label": "Presupuestos altos", "value": "+20%" },
+          { "label": "Visitas orgánicas", "value": "+150%" }
+        ],
+        "tech": ["Next.js", "SEO Avanzado", "GSAP"],
+        "link": "#"
+      }
+    ]
+  },
+  "legalPage": {
+    "title": "Aviso Legal",
+    "lastUpdated": "Última actualización: Octubre 2023",
+    "content": [
+      {
+        "heading": "1. Datos de la empresa",
+        "text": "En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSICE), a continuación se exponen los datos identificativos del titular: Nexa Digital. Correo electrónico de contacto: nexainforma@gmail.com."
+      },
+      {
+        "heading": "2. Propiedad intelectual e industrial",
+        "text": "El diseño del portal y sus códigos fuente, así como los logos, marcas y demás signos distintivos que aparecen en el mismo, pertenecen a Nexa Digital o a sus respectivos propietarios y están protegidos por los correspondientes derechos de propiedad intelectual e industrial."
+      },
+      {
+        "heading": "3. Responsabilidad de los contenidos",
+        "text": "Nexa Digital no se hace responsable de la legalidad de otros sitios web de terceros desde los que pueda accederse al portal. Tampoco responde por la legalidad de otros sitios web de terceros, que pudieran estar vinculados."
+      }
+    ]
+  },
+  "privacyPage": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: Octubre 2023",
+    "content": [
+      {
+        "heading": "1. Información sobre el tratamiento de datos",
+        "text": "De conformidad con lo dispuesto en el Reglamento General de Protección de Datos (RGPD), le informamos que los datos personales facilitados a través de los formularios de esta web serán tratados de forma confidencial."
+      },
+      {
+        "heading": "2. Finalidad del tratamiento",
+        "text": "La finalidad del tratamiento de los datos es únicamente responder a las consultas planteadas y gestionar los presupuestos solicitados."
+      },
+      {
+        "heading": "3. Derechos de los usuarios",
+        "text": "El usuario podrá ejercer en cualquier momento sus derechos de acceso, rectificación, cancelación y oposición escribiendo a nexainforma@gmail.com."
+      }
+    ]
+  },
+  "footer": {
+    "brandSubtitle": "Especializados en empujar pequeños negocios hacia el futuro digital a través de páginas web profesionales y a medida.",
+    "quickLinks": "Enlaces rápidos",
+    "contact": "Contacto",
+    "location": "Cataluña, España",
+    "rights": "Nexa Digital. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "legal": "Aviso Legal"
+  }
+}
