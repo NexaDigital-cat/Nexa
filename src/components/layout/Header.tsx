@@ -25,11 +25,13 @@ export function Header({ dict, lang }: { dict: any; lang: string }) {
     return segments.join("/");
   };
 
+  const isServicePage = pathname?.includes("/serveis/");
+
   return (
     <header
       className={cn(
         "fixed top-0 w-full z-50 transition-all duration-300 flex flex-col",
-        isScrolled
+        isScrolled || isServicePage
           ? "bg-brand-background/95 backdrop-blur-md shadow-sm border-b border-border/50"
           : "bg-transparent border-b border-transparent"
       )}

@@ -69,7 +69,7 @@ export default async function ServicePage({
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a 
-                href={`/${lang}/#contact`} 
+                href={`/${lang}/#contacte`} 
                 className="w-full sm:w-auto px-8 py-4 bg-brand-accent hover:bg-brand-secondary text-brand-primary font-bold rounded-xl transition-all hover:scale-105 active:scale-95 text-center shadow-[0_0_20px_rgba(79,209,197,0.2)]"
               >
                 {dict.servicePage.ctaForm}

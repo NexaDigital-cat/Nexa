@@ -8,7 +8,8 @@ export function ServiceHeroSection({ dict, lang, service }: { dict: any; lang: s
       {service.image ? (
         <div className="absolute inset-0 z-0">
           <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-t from-brand-primary/100 via-brand-primary/80 to-brand-primary/40" />
+          {/* Darker overlay at top so header text is readable, dense at bottom for CTA contrast */}
+          <div className="absolute inset-0 bg-gradient-to-b from-[#0A1128]/85 via-[#0A1128]/70 to-[#0A1128]/90" />
         </div>
       ) : (
         <>
@@ -25,7 +26,7 @@ export function ServiceHeroSection({ dict, lang, service }: { dict: any; lang: s
             {dict.servicePage.backToServices}
           </Link>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-6 text-white drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)]">
             {service.title}
           </h1>
           
@@ -34,12 +35,12 @@ export function ServiceHeroSection({ dict, lang, service }: { dict: any; lang: s
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link 
-              href={`/${lang}/#contact`} 
+            <a 
+              href={`/${lang}/#contacte`} 
               className="w-full sm:w-auto px-8 py-4 bg-brand-accent hover:bg-brand-secondary text-brand-primary font-bold rounded-xl transition-all hover:scale-105 active:scale-95 text-center shadow-[0_0_20px_rgba(79,209,197,0.3)]"
             >
               {dict.servicePage.ctaForm}
-            </Link>
+            </a>
             
             <a 
               href="tel:+34699368895" 
