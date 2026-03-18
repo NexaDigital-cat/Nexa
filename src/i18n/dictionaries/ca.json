@@ -227,11 +227,110 @@
   },
   "footer": {
     "brandSubtitle": "Especialitzats en empènyer petits negocis cap al futur digital a través de pàgines web professionals i a mida.",
-    "quickLinks": "Enllaços ràpids",
+    "quickLinks": "Els nostres serveis",
+    "localTitle": "Servei Local",
+    "companyTitle": "Empresa",
+    "contactTitle": "Informació de Contacte",
     "contact": "Contacte",
-    "location": "Catalunya, Espanya",
+    "location": "Reus, Tarragona, Catalunya",
+    "phone": "699 368 895",
     "rights": "Nexa Digital. Tots els drets reservats.",
     "privacy": "Política de Privacitat",
-    "legal": "Avís Legal"
+    "legal": "Avís Legal",
+    "cookies": "Política de Cookies",
+    "localLinks": [
+      { "label": "Webs Corporatives a Reus", "href": "/webs-corporatives-reus" },
+      { "label": "Webs Corporatives a Tarragona", "href": "/webs-corporatives-tarragona" },
+      { "label": "Botigues Online a Reus", "href": "/botigues-online-reus" },
+      { "label": "Botigues Online a Tarragona", "href": "/botigues-online-tarragona" }
+    ],
+    "companyLinks": [
+      { "label": "Inici", "href": "/" },
+      { "label": "Serveis", "href": "/#serveis" },
+      { "label": "Casos d'Èxit", "href": "/casos-d-exit" },
+      { "label": "Avís Legal", "href": "/avis-legal" },
+      { "label": "Política de Privacitat", "href": "/politica-privacitat" },
+      { "label": "Política de Cookies", "href": "/politica-cookies" }
+    ]
+  },
+  "cookiePage": {
+    "title": "Política de Cookies",
+    "lastUpdated": "Darrera actualització: Octubre 2023",
+    "content": [
+      {
+        "heading": "1. Què són les cookies?",
+        "text": "Una cookie és un arxiu de text que s'emmagatzema al teu dispositiu quan visites un lloc web. Les cookies ens permeten recordar les teves preferències i millorar la teva experiència de navegació."
+      },
+      {
+        "heading": "2. Quins tipus de cookies usem?",
+        "text": "Cookies tècniques (necessàries per al funcionament de la web), cookies analítiques (per entendre com s'utilitza la web, a través de Google Analytics de forma anònima) i cookies de preferències (per recordar el teu idioma escollit)."
+      },
+      {
+        "heading": "3. Còm pots gestionar les cookies?",
+        "text": "Pots configurar el teu navegador per bloquejar o eliminar cookies. Tingues en compte que desactivar-les pot afectar algunes funcionalitats de la web. Consulta l'ajuda del teu navegador per obtenir instruccions detallades."
+      },
+      {
+        "heading": "4. Contacte",
+        "text": "Si tens qualsevol dubte sobre la nostra Política de Cookies, pots posar-te en contacte amb nosaltres a nexainforma@gmail.com."
+      }
+    ]
+  },
+  "localSeo": {
+    "websCorporativesReus": {
+      "heroTitle": "Webs Corporatives a Reus",
+      "heroSubtitle": "Creem pàgines web professionals i a mida per a autònoms i petites empreses de Reus. Disseny premium, velocitat extrema i orientades a captar clients.",
+      "cityBadge": "Servei a Reus",
+      "features": [
+        "Coneixement profund del mercat local de Reus i la seva comarca",
+        "Webs optimitzades per a cerques locals: 'dissenyador web Reus'",
+        "Reunions presencials disponibles a Reus (Camp de Tarragona)",
+        "Suport i manteniment en català i castellà",
+        "Entrega ràpida en 2 a 4 setmanes",
+        "Preu adaptat a la realitat dels negocis locals"
+      ],
+      "image": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&q=80&w=2000"
+    },
+    "websCorporativesTarragona": {
+      "heroTitle": "Webs Corporatives a Tarragona",
+      "heroSubtitle": "Especialistes en disseny web per a empreses de Tarragona. Creem la teva presència digital per atreure més clients i generar confiança des del primer clic.",
+      "cityBadge": "Servei a Tarragona",
+      "features": [
+        "Especialitzats en el teixit empresarial de la Costa Daurada",
+        "Posicionament SEO local: 'web Tarragona', 'dissenyador web Tarragona'",
+        "Reunions presencials disponibles a Tarragona",
+        "Adaptació a sectors clau: turisme, restauració, comerç i serveis",
+        "Compliment de la normativa vigent (LOPD, RGPD)",
+        "Garantia de satisfacció: revisions il·limitades fins a l'aprovació"
+      ],
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&q=80&w=2000"
+    },
+    "botiguesOnlineReus": {
+      "heroTitle": "Botigues Online a Reus",
+      "heroSubtitle": "Convertim el teu negoci de Reus en una botiga online que ven 24/7. E-commerce professional, segur i autogestionable per a petits comerciants de la zona.",
+      "cityBadge": "E-commerce a Reus",
+      "features": [
+        "Integració amb passarel·les de pagament (Stripe, PayPal, Redsys)",
+        "Enteniment del comerç local i dels processos de compra regionals",
+        "Suport presencial a Reus per a la posada en marxa i formació",
+        "Catàleg de productes organitzat i atractiu",
+        "Integrat amb serveis de missatgeria i logística",
+        "Panell admin senzill: gestiona les teves comandes sense tècnics"
+      ],
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=2000"
+    },
+    "botiguesOnlineTarragona": {
+      "heroTitle": "Botigues Online a Tarragona",
+      "heroSubtitle": "Creem e-commerce de rendiment alt per a empreses de Tarragona i la Costa Daurada. Ven els teus productes localment i a tot el món des d'una sola plataforma.",
+      "cityBadge": "E-commerce a Tarragona",
+      "features": [
+        "Experiència en sectors turístics i de productes locals",
+        "Optimitzat per al SEO local: 'botiga online Tarragona'",
+        "Sistema multi-idioma per a clients nacionals i internacionals",
+        "Integració amb sistemes de gestió d'inventari",
+        "Disseny pensat per a la conversió i l'experiència d'usuari",
+        "Reunions de seguiment i formació a Tarragona"
+      ],
+      "image": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80&w=2000"
+    }
   }
 }

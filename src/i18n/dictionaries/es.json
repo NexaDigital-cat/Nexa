@@ -227,11 +227,110 @@
   },
   "footer": {
     "brandSubtitle": "Especializados en empujar pequeños negocios hacia el futuro digital a través de páginas web profesionales y a medida.",
-    "quickLinks": "Enlaces rápidos",
+    "quickLinks": "Nuestros servicios",
+    "localTitle": "Servicio Local",
+    "companyTitle": "Empresa",
+    "contactTitle": "Información de Contacto",
     "contact": "Contacto",
-    "location": "Cataluña, España",
+    "location": "Reus, Tarragona, Cataluña",
+    "phone": "699 368 895",
     "rights": "Nexa Digital. Todos los derechos reservados.",
     "privacy": "Política de Privacidad",
-    "legal": "Aviso Legal"
+    "legal": "Aviso Legal",
+    "cookies": "Política de Cookies",
+    "localLinks": [
+      { "label": "Webs Corporativas en Reus", "href": "/webs-corporatives-reus" },
+      { "label": "Webs Corporativas en Tarragona", "href": "/webs-corporatives-tarragona" },
+      { "label": "Tiendas Online en Reus", "href": "/botigues-online-reus" },
+      { "label": "Tiendas Online en Tarragona", "href": "/botigues-online-tarragona" }
+    ],
+    "companyLinks": [
+      { "label": "Inicio", "href": "/" },
+      { "label": "Servicios", "href": "/#serveis" },
+      { "label": "Casos de Éxito", "href": "/casos-d-exit" },
+      { "label": "Aviso Legal", "href": "/avis-legal" },
+      { "label": "Política de Privacidad", "href": "/politica-privacitat" },
+      { "label": "Política de Cookies", "href": "/politica-cookies" }
+    ]
+  },
+  "cookiePage": {
+    "title": "Política de Cookies",
+    "lastUpdated": "Última actualización: Octubre 2023",
+    "content": [
+      {
+        "heading": "1. ¿Qué son las cookies?",
+        "text": "Una cookie es un archivo de texto que se almacena en tu dispositivo cuando visitas un sitio web. Las cookies nos permiten recordar tus preferencias y mejorar tu experiencia de navegación."
+      },
+      {
+        "heading": "2. ¿Qué tipos de cookies usamos?",
+        "text": "Cookies técnicas (necesarias para el funcionamiento de la web), cookies analíticas (para entender cómo se utiliza la web, a través de Google Analytics de forma anónima) y cookies de preferencias (para recordar el idioma seleccionado)."
+      },
+      {
+        "heading": "3. ¿Cómo puedes gestionar las cookies?",
+        "text": "Puedes configurar tu navegador para bloquear o eliminar cookies. Ten en cuenta que desactivarlas puede afectar a algunas funcionalidades de la web. Consulta la ayuda de tu navegador para obtener instrucciones detalladas."
+      },
+      {
+        "heading": "4. Contacto",
+        "text": "Si tienes cualquier duda sobre nuestra Política de Cookies, puedes ponerte en contacto con nosotros en nexainforma@gmail.com."
+      }
+    ]
+  },
+  "localSeo": {
+    "websCorporativesReus": {
+      "heroTitle": "Webs Corporativas en Reus",
+      "heroSubtitle": "Creamos páginas web profesionales y personalizadas para autónomos y pequeñas empresas de Reus. Diseño premium, velocidad extrema y orientadas a captar clientes.",
+      "cityBadge": "Servicio en Reus",
+      "features": [
+        "Conocimiento profundo del mercado local de Reus y su comarca",
+        "Webs optimizadas para búsquedas locales: 'diseñador web Reus'",
+        "Reuniones presenciales disponibles en Reus (Camp de Tarragona)",
+        "Soporte y mantenimiento en catalán y castellano",
+        "Entrega rápida en 2 a 4 semanas",
+        "Precio adaptado a la realidad de los negocios locales"
+      ],
+      "image": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&q=80&w=2000"
+    },
+    "websCorporativesTarragona": {
+      "heroTitle": "Webs Corporativas en Tarragona",
+      "heroSubtitle": "Especialistas en diseño web para empresas de Tarragona. Creamos tu presencia digital para atraer más clientes y generar confianza desde el primer clic.",
+      "cityBadge": "Servicio en Tarragona",
+      "features": [
+        "Especializados en el tejido empresarial de la Costa Daurada",
+        "Posicionamiento SEO local: 'web Tarragona', 'diseñador web Tarragona'",
+        "Reuniones presenciales disponibles en Tarragona",
+        "Adaptación a sectores clave: turismo, restauración, comercio y servicios",
+        "Cumplimiento de la normativa vigente (LOPD, RGPD)",
+        "Garantía de satisfacción: revisiones ilimitadas hasta la aprobación"
+      ],
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&q=80&w=2000"
+    },
+    "botiguesOnlineReus": {
+      "heroTitle": "Tiendas Online en Reus",
+      "heroSubtitle": "Convertimos tu negocio de Reus en una tienda online que vende 24/7. E-commerce profesional, seguro y autogestionable para pequeños comerciantes de la zona.",
+      "cityBadge": "E-commerce en Reus",
+      "features": [
+        "Integración con pasarelas de pago (Stripe, PayPal, Redsys)",
+        "Entendimiento del comercio local y los procesos de compra regionales",
+        "Soporte presencial en Reus para la puesta en marcha y formación",
+        "Catálogo de productos organizado y atractivo",
+        "Integrado con servicios de mensajería y logística",
+        "Panel admin sencillo: gestiona tus pedidos sin técnicos"
+      ],
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=2000"
+    },
+    "botiguesOnlineTarragona": {
+      "heroTitle": "Tiendas Online en Tarragona",
+      "heroSubtitle": "Creamos e-commerce de alto rendimiento para empresas de Tarragona y la Costa Daurada. Vende tus productos localmente y en todo el mundo desde una sola plataforma.",
+      "cityBadge": "E-commerce en Tarragona",
+      "features": [
+        "Experiencia en sectores turísticos y de productos locales",
+        "Optimizado para el SEO local: 'tienda online Tarragona'",
+        "Sistema multi-idioma para clientes nacionales e internacionales",
+        "Integración con sistemas de gestión de inventario",
+        "Diseño pensado para la conversión y la experiencia de usuario",
+        "Reuniones de seguimiento y formación en Tarragona"
+      ],
+      "image": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80&w=2000"
+    }
   }
 }
