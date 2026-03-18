@@ -28,7 +28,7 @@ export function HeroSection({ dict, lang }: { dict: any; lang: string }) {
   }, []);
 
   return (
-    <section className="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden bg-brand-background">
+    <section className="relative pt-40 pb-20 md:pt-56 md:pb-32 overflow-hidden bg-brand-background">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-brand-secondary/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-brand-accent/10 rounded-full blur-3xl" />

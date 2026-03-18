@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { useEffect, useState } from "react";
+import { Phone, Mail, MapPin } from "lucide-react";
 
 export function Header({ dict, lang }: { dict: any; lang: string }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,12 +28,32 @@ export function Header({ dict, lang }: { dict: any; lang: string }) {
   return (
     <header
       className={cn(
-        "fixed top-0 w-full z-50 transition-all duration-300 border-b",
+        "fixed top-0 w-full z-50 transition-all duration-300 flex flex-col",
         isScrolled
-          ? "bg-brand-background/80 backdrop-blur-md border-border/50 shadow-sm"
-          : "bg-transparent border-transparent"
+          ? "bg-brand-background/95 backdrop-blur-md shadow-sm border-b border-border/50"
+          : "bg-transparent border-b border-transparent"
       )}
     >
+      {/* Top Contact Bar */}
+      <div className="bg-[#0A1128] text-slate-300 py-2 border-b border-white/5">
+        <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-center sm:justify-between items-center text-[11px] sm:text-xs font-medium gap-2 sm:gap-0 tracking-wide">
+          <div className="flex items-center gap-4 sm:gap-6">
+            <a href="tel:+34699368895" className="flex items-center gap-1.5 hover:text-white transition-colors">
+              <Phone size={13} strokeWidth={2.5} className="text-brand-accent/90" />
+              <span>699 368 895</span>
+            </a>
+            <a href="mailto:nexainforma@gmail.com" className="flex items-center gap-1.5 hover:text-white transition-colors">
+              <Mail size={13} strokeWidth={2.5} className="text-brand-accent/90" />
+              <span>nexainforma@gmail.com</span>
+            </a>
+          </div>
+          <div className="flex items-center gap-1.5 hidden sm:flex">
+            <MapPin size={13} strokeWidth={2.5} className="text-brand-accent/90" />
+            <span>Reus, Tarragona</span>
+          </div>
+        </div>
+      </div>
+
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href={`/${lang}`} className="flex items-center gap-2 group">
