@@ -16,7 +16,7 @@ export default async function Home({ params }: { params: { lang: string } }) {
       <Header dict={dict} lang={lang} />
       <main className="flex-1">
         <HeroSection dict={dict} lang={lang} />
-        <ServicesSection dict={dict} />
+        <ServicesSection dict={dict} lang={lang} />
         <ProcessSection dict={dict} />
         <ContactFormSection dict={dict} />
       </main>
