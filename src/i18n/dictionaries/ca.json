@@ -28,6 +28,7 @@
         "title": "Webs Corporatives",
         "description": "Pàgines onepager o completes per a captar leads, dissenyades per transmetre professionalitat i confiança al teu públic.",
         "detailedDescription": "Una web corporativa és el quarter general del teu negoci a internet. No es tracta només d'un fullet bonic, sinó d'una eina de vendes 24/7. Dissenyem pàgines ultra-ràpides, persuasives i enfocades a fer que els teus visitants contactin amb tu o sol·licitin un pressupost. Ens encarreguem de tot: des del disseny visual impecable fins a la redacció persuasiva (copywriting) que ressalta el teu valor únic enfront de la competència.",
+        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2000",
         "features": [
           "Disseny 100% a mida i premium",
           "Estructura orientada a la conversió i captació de leads",
@@ -42,6 +43,7 @@
         "title": "Botigues Online",
         "description": "E-commerce segur, escalable i autogestionable per a que puguis vendre els teus productes 24/7 sense complicacions tècniques.",
         "detailedDescription": "Porta els teus productes a qualsevol part del món amb un e-commerce robust, ràpid i preparat per vendre. Construïm botigues online sense friccions, on l'usuari troba el que busca i compra en 3 clics. Configurem passarel·les de pagament segures (Stripe, PayPal, Redsys), gestió simple d'inventari i integracions perquè tu només t'hagis de preocupar de preparar les comandes.",
+        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=2000",
         "features": [
           "Disseny de catàleg atractiu i categoritzat",
           "Passarel·les de pagament segures i fàcils d'utilitzar",
@@ -56,6 +58,7 @@
         "title": "Landing Pages",
         "description": "Si fas campanyes de publicitat o llançaments, creem pàgines ultra-optimitzades exclusivament per a aconseguir la conversió.",
         "detailedDescription": "Quan inverteixes en publicitat (Google Ads, Meta Ads), enviar trànsit a la pàgina d'inici és llençar els diners. El que necessites és una Landing Page (pàgina d'aterratge) amb un únic objectiu: convèncer a l'usuari que compri el teu producte o deixi les seves dades. Apliquem biaixos cognitius, arquitectura persuasiva i proves de velocitat extremes per disparar la teva taxa de conversió (CRO).",
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2000",
         "features": [
           "Estructura bloc a bloc basada en copywriting persuasiu",
           "Formularis d'alta conversió amb validació en temps real",
@@ -70,6 +73,7 @@
         "title": "Manteniment Web",
         "description": "Ens ocupem d'actualitzar, fer còpies de seguretat i que la teva pàgina estigui segura tot l'any perquè tu només pensis en el teu negoci.",
         "detailedDescription": "Una pàgina web no s'acaba quan es publica. Necessita actualitzacions de seguretat, monitoratge de temps d'activitat i ajustos tècnics periòdics per no quedar obsoleta ni ser vulnerable a hackejos. El nostre servei de manteniment integral et treu els mals de cap tècnics: nosaltres vigilem la teva web 24/7 mentre tu gestiones la teva empresa.",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=2000",
         "features": [
           "Còpies de seguretat diàries automatitzades",
           "Actualització de connectors, nucli i llibreries clau",
@@ -87,7 +91,9 @@
     "ctaWhatsapp": "WhatsApp",
     "featuresTitle": "El que inclou aquest servei",
     "backToServices": "Veure tots els serveis",
-    "notFound": "Servei no trobat"
+    "notFound": "Servei no trobat",
+    "bottomTitle": "Llest per portar el teu projecte al següent nivell?",
+    "bottomSubtitle": "Tria la forma que prefereixis per contactar-nos i explica'ns el teu negoci. T'assessorarem sense compromís."
   },
   "process": {
     "overtitle": "Com Treballem",

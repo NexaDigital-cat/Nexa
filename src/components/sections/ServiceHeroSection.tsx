@@ -3,10 +3,20 @@ import { Phone, ArrowLeft, CheckCircle2 } from "lucide-react";
 
 export function ServiceHeroSection({ dict, lang, service }: { dict: any; lang: string; service: any }) {
   return (
-    <section className="relative pt-40 pb-28 md:pt-48 md:pb-40 overflow-hidden bg-[#0A1128] text-white min-h-[75vh] flex flex-col justify-center">
-      {/* Decorative Gradients */}
-      <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-brand-secondary/20 rounded-full blur-[100px] pointer-events-none" />
-      <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-brand-accent/20 rounded-full blur-[100px] pointer-events-none" />
+    <section className="relative pt-40 pb-28 md:pt-48 md:pb-40 overflow-hidden text-white min-h-[75vh] flex flex-col justify-center">
+      {/* Background Image with Dark Gradient Overlay */}
+      {service.image ? (
+        <div className="absolute inset-0 z-0">
+          <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-t from-brand-primary/100 via-brand-primary/80 to-brand-primary/40" />
+        </div>
+      ) : (
+        <>
+          <div className="absolute inset-0 bg-[#0A1128] z-0" />
+          <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-brand-secondary/20 rounded-full blur-[100px] pointer-events-none z-0" />
+          <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-brand-accent/20 rounded-full blur-[100px] pointer-events-none z-0" />
+        </>
+      )}
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">

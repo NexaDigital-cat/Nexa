@@ -28,6 +28,7 @@
         "title": "Webs Corporativas",
         "description": "Páginas onepager o completas para captar leads, diseñadas para transmitir profesionalidad y confianza a tu público.",
         "detailedDescription": "Una web corporativa es el cuartel general de tu negocio en internet. No se trata solo de un folleto bonito, sino de una herramienta de ventas 24/7. Diseñamos páginas ultra-rápidas, persuasivas y enfocadas a que tus visitantes contacten contigo o soliciten un presupuesto. Nos encargamos de todo: desde el diseño visual impecable hasta la redacción persuasiva (copywriting) que resalta tu valor único frente a la competencia.",
+        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2000",
         "features": [
           "Diseño 100% a medida y premium",
           "Estructura orientada a la conversión y captación de leads",
@@ -42,6 +43,7 @@
         "title": "Tiendas Online",
         "description": "E-commerce seguro, escalable y autogestionable para que puedas vender tus productos 24/7 sin complicaciones técnicas.",
         "detailedDescription": "Lleva tus productos a cualquier parte del mundo con un e-commerce robusto, rápido y preparado para vender. Construimos tiendas online sin fricciones, donde el usuario encuentra lo que busca y compra en 3 clics. Configuramos pasarelas de pago seguras (Stripe, PayPal, Redsys), gestión simple de inventario e integraciones para que tú solo tengas que preocuparte de preparar los pedidos.",
+        "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=2000",
         "features": [
           "Diseño de catálogo atractivo y categorizado",
           "Pasarelas de pago seguras y fáciles de usar",
@@ -56,6 +58,7 @@
         "title": "Landing Pages",
         "description": "Si haces campañas de publicidad o lanzamientos, creamos páginas ultra-optimizadas exclusivamente para conseguir la conversión.",
         "detailedDescription": "Cuando inviertes en publicidad (Google Ads, Meta Ads), enviar tráfico a la página de inicio es tirar el dinero. Lo que necesitas es una Landing Page (página de aterrizaje) con un único objetivo: convencer al usuario de que compre tu producto o deje sus datos. Aplicamos sesgos cognitivos, arquitectura persuasiva y pruebas de velocidad extremas para disparar tu tasa de conversión (CRO).",
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2000",
         "features": [
           "Estructura bloque a bloque basada en copywriting persuasivo",
           "Formularios de alta conversión con validación en tiempo real",
@@ -70,6 +73,7 @@
         "title": "Mantenimiento Web",
         "description": "Nos ocupamos de actualizar, hacer copias de seguridad y que tu página esté segura todo el año para que tú solo pienses en tu negocio.",
         "detailedDescription": "Una página web no se termina cuando se publica. Necesita actualizaciones de seguridad, monitorización de tiempo de actividad y ajustes técnicos periódicos para no quedarse obsoleta ni ser vulnerable a hackeos. Nuestro servicio de mantenimiento integral te quita los dolores de cabeza técnicos: nosotros vigilamos tu web 24/7 mientras tú gestionas tu empresa.",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=2000",
         "features": [
           "Copias de seguridad diarias automatizadas",
           "Actualización de plugins, núcleo y librerías clave",
@@ -87,7 +91,9 @@
     "ctaWhatsapp": "WhatsApp",
     "featuresTitle": "Lo que incluye este servicio",
     "backToServices": "Ver todos los servicios",
-    "notFound": "Servicio no encontrado"
+    "notFound": "Servicio no encontrado",
+    "bottomTitle": "¿Listo para llevar tu proyecto al siguiente nivel?",
+    "bottomSubtitle": "Elige la forma que prefieras para contactarnos y cuéntanos sobre tu negocio. Te asesoraremos sin compromiso."
   },
   "process": {
     "overtitle": "Cómo Trabajamos",
