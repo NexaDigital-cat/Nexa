@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import { Toaster } from "sonner";
+import { FloatingWhatsApp } from "@/components/ui/FloatingWhatsApp";
 import "../globals.css";
 
 const inter = Inter({
@@ -51,7 +52,8 @@ export default async function RootLayout({
     <html lang={lang} className="scroll-smooth">
       <body className={`${inter.variable} ${poppins.variable} font-sans`}>
         {children}
-        <Toaster position="bottom-right" richColors />
+        <FloatingWhatsApp />
+        <Toaster position="bottom-left" richColors />
       </body>
     </html>
   );

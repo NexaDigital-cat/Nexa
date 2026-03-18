@@ -24,22 +24,70 @@
     "description": "Nos adaptamos al momento vital de tu negocio, ofreciendo desde una carta de presentación hasta plataformas complejas de venta online.",
     "items": [
       {
+        "slug": "webs-corporativas",
         "title": "Webs Corporativas",
-        "description": "Páginas onepager o completas para captar leads, diseñadas para transmitir profesionalidad y confianza a tu público."
+        "description": "Páginas onepager o completas para captar leads, diseñadas para transmitir profesionalidad y confianza a tu público.",
+        "detailedDescription": "Una web corporativa es el cuartel general de tu negocio en internet. No se trata solo de un folleto bonito, sino de una herramienta de ventas 24/7. Diseñamos páginas ultra-rápidas, persuasivas y enfocadas a que tus visitantes contacten contigo o soliciten un presupuesto. Nos encargamos de todo: desde el diseño visual impecable hasta la redacción persuasiva (copywriting) que resalta tu valor único frente a la competencia.",
+        "features": [
+          "Diseño 100% a medida y premium",
+          "Estructura orientada a la conversión y captación de leads",
+          "Optimización SEO básica para Google",
+          "Adaptabilidad perfecta a móviles y tablets",
+          "Integración con WhatsApp y formularios de contacto",
+          "Carga ultra-rápida garantizada"
+        ]
       },
       {
+        "slug": "tiendas-online",
         "title": "Tiendas Online",
-        "description": "E-commerce seguro, escalable y autogestionable para que puedas vender tus productos 24/7 sin complicaciones técnicas."
+        "description": "E-commerce seguro, escalable y autogestionable para que puedas vender tus productos 24/7 sin complicaciones técnicas.",
+        "detailedDescription": "Lleva tus productos a cualquier parte del mundo con un e-commerce robusto, rápido y preparado para vender. Construimos tiendas online sin fricciones, donde el usuario encuentra lo que busca y compra en 3 clics. Configuramos pasarelas de pago seguras (Stripe, PayPal, Redsys), gestión simple de inventario e integraciones para que tú solo tengas que preocuparte de preparar los pedidos.",
+        "features": [
+          "Diseño de catálogo atractivo y categorizado",
+          "Pasarelas de pago seguras y fáciles de usar",
+          "Panel autogestionable para control de stock y pedidos",
+          "Optimizada para carritos abandonados",
+          "Fácil integración con herramientas de email marketing",
+          "Soporte multi-idioma y multi-divisa (opcional)"
+        ]
       },
       {
+        "slug": "landing-pages",
         "title": "Landing Pages",
-        "description": "Si haces campañas de publicidad o lanzamientos, creamos páginas ultra-optimizadas exclusivamente para conseguir la conversión."
+        "description": "Si haces campañas de publicidad o lanzamientos, creamos páginas ultra-optimizadas exclusivamente para conseguir la conversión.",
+        "detailedDescription": "Cuando inviertes en publicidad (Google Ads, Meta Ads), enviar tráfico a la página de inicio es tirar el dinero. Lo que necesitas es una Landing Page (página de aterrizaje) con un único objetivo: convencer al usuario de que compre tu producto o deje sus datos. Aplicamos sesgos cognitivos, arquitectura persuasiva y pruebas de velocidad extremas para disparar tu tasa de conversión (CRO).",
+        "features": [
+          "Estructura bloque a bloque basada en copywriting persuasivo",
+          "Formularios de alta conversión con validación en tiempo real",
+          "Eliminación de puntos de fuga (sin distracción ni menús extra)",
+          "Integración perfecta con tu CRM o herramienta de mail (Mailchimp, ActiveCampaign...)",
+          "A/B Testing opcional para maximizar resultados",
+          "Velocidad de carga inferior a 1 segundo"
+        ]
       },
       {
+        "slug": "mantenimiento-web",
         "title": "Mantenimiento Web",
-        "description": "Nos ocupamos de actualizar, hacer copias de seguridad y que tu página esté segura todo el año para que tú solo pienses en tu negocio."
+        "description": "Nos ocupamos de actualizar, hacer copias de seguridad y que tu página esté segura todo el año para que tú solo pienses en tu negocio.",
+        "detailedDescription": "Una página web no se termina cuando se publica. Necesita actualizaciones de seguridad, monitorización de tiempo de actividad y ajustes técnicos periódicos para no quedarse obsoleta ni ser vulnerable a hackeos. Nuestro servicio de mantenimiento integral te quita los dolores de cabeza técnicos: nosotros vigilamos tu web 24/7 mientras tú gestionas tu empresa.",
+        "features": [
+          "Copias de seguridad diarias automatizadas",
+          "Actualización de plugins, núcleo y librerías clave",
+          "Monitorización de seguridad contra malware y ataques",
+          "Ajustes de rendimiento (Performance y Core Web Vitals)",
+          "Bolsa de horas para pequeñas modificaciones de texto e imágenes",
+          "Soporte técnico prioritario por WhatsApp/Email"
+        ]
       }
     ]
+  },
+  "servicePage": {
+    "ctaForm": "Solicitar Presupuesto",
+    "ctaPhone": "Llamar Ahora",
+    "ctaWhatsapp": "WhatsApp",
+    "featuresTitle": "Lo que incluye este servicio",
+    "backToServices": "Ver todos los servicios",
+    "notFound": "Servicio no encontrado"
   },
   "process": {
     "overtitle": "Cómo Trabajamos",
