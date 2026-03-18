@@ -88,10 +88,11 @@ export function HeroSection({ dict, lang }: { dict: any; lang: string }) {
             </div>
           </div>
 
-          {/* Image / Illustration Illustration Box */}
-          <div className="relative mx-auto w-full max-w-lg lg:max-w-none">
+          {/* Image / Illustration Box */}
+          {/* Outer wrapper: relative + bottom padding so the floating badge has room below the image */}
+          <div className="relative mx-auto w-full max-w-lg lg:max-w-none pb-10">
+            {/* Image card — overflow-hidden only on this element so badge is never clipped */}
             <div className="aspect-[4/3] rounded-2xl bg-white shadow-2xl overflow-hidden border border-border/50 relative">
-              {/* Fallback pattern while actual image is unavailable */}
               <div className="absolute inset-0 bg-gradient-to-tr from-brand-primary/5 to-brand-secondary/20" />
               
               {heroImages.map((img, index) => (
@@ -104,22 +105,26 @@ export function HeroSection({ dict, lang }: { dict: any; lang: string }) {
                   }`}
                 />
               ))}
-
             </div>
 
-            {/* Floating element for "vibe" */}
-            <div className="absolute z-20 bottom-4 left-4 sm:bottom-6 sm:-left-6 bg-white p-3 sm:p-4 rounded-xl shadow-xl flex items-center gap-3 sm:gap-4 border border-border/50 animate-bounce" style={{ animationDuration: '3s' }}>
-              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center">
-                <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+            {/* Floating badge — positioned relative to outer wrapper, overlaps image corner */}
+            <div
+              className="absolute z-20 bottom-10 -left-0 sm:-left-6 bg-white p-3 sm:p-4 rounded-xl shadow-xl flex items-center gap-3 sm:gap-4 border border-border/50 animate-bounce"
+              style={{ animationDuration: "3s" }}
+            >
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center flex-shrink-0">
+                <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
               </div>
               <div className="whitespace-nowrap">
                 <p className="text-sm font-bold text-brand-primary">{dict.hero.floatingBadge.title}</p>
                 <p className="text-xs text-brand-text/70">{dict.hero.floatingBadge.text}</p>
               </div>
             </div>
-            
+
             {/* Carousel navigation indicators */}
-            <div className="absolute -bottom-8 left-1/2 -translate-x-1/2 flex gap-2">
+            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 flex gap-2">
               {heroImages.map((_, idx) => (
                 <button
                   key={idx}
