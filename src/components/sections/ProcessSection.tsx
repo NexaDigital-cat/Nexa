@@ -46,9 +46,9 @@ export function ProcessSection({ dict }: { dict: any }) {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="mb-4 text-center md:text-left">
-          <h2 className="text-sm font-bold tracking-widest text-white/60 uppercase mb-3">{dict.process.overtitle}</h2>
+          <h2 className="text-sm font-bold tracking-wider text-brand-secondary uppercase mb-3">{dict.process.overtitle}</h2>
           <div className="flex flex-col gap-4">
-            <h3 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold max-w-2xl">
+            <h3 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold max-w-2xl text-white">
               {dict.process.title}
             </h3>
             <p className="text-primary-foreground/80 max-w-md text-sm md:text-base">
