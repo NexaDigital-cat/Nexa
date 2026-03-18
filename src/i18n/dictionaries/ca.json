@@ -6,7 +6,9 @@
     "cta": "Parlem-ne"
   },
   "hero": {
+    "badge": "Especialistes en petits negocis",
     "title": "Creem pàgines web que criden clients al teu negoci.",
+    "titleHighlight": "clients",
     "subtitle": "Deixa de perdre oportunitats perquè els teus clients no et troben a internet. Dissenyem la teva presència digital de forma senzilla, ràpida i optimitzada per a web y dispositius mòbils.",
     "ctaPrimary": "Demana un pressupost",
     "ctaSecondary": "Casos d'èxit",

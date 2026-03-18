@@ -42,13 +42,13 @@ export function HeroSection({ dict, lang }: { dict: any; lang: string }) {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-secondary opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-secondary"></span>
               </span>
-              Especialistes en petits negocis
+              {dict.hero.badge}
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-extrabold text-brand-primary leading-tight">
-              {dict.hero.title.split("clients").length > 1 ? (
+              {dict.hero.titleHighlight && dict.hero.title.includes(dict.hero.titleHighlight) ? (
                 <>
-                  {dict.hero.title.split("clients")[0]}<span className="text-brand-accent">clients</span>{dict.hero.title.split("clients")[1]}
+                  {dict.hero.title.split(dict.hero.titleHighlight)[0]}<span className="text-brand-accent">{dict.hero.titleHighlight}</span>{dict.hero.title.split(dict.hero.titleHighlight)[1]}
                 </>
               ) : dict.hero.title}
             </h1>
@@ -105,15 +105,16 @@ export function HeroSection({ dict, lang }: { dict: any; lang: string }) {
                 />
               ))}
 
-              {/* Floating element for "vibe" */}
-              <div className="absolute z-20 bottom-4 left-4 sm:bottom-6 sm:-left-6 bg-white p-3 sm:p-4 rounded-xl shadow-xl flex items-center gap-3 sm:gap-4 border border-border/50 animate-bounce" style={{ animationDuration: '3s' }}>
-                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center">
-                  <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                </div>
-                <div>
-                  <p className="text-sm font-bold text-brand-primary">{dict.hero.floatingBadge.title}</p>
-                  <p className="text-xs text-brand-text/70">{dict.hero.floatingBadge.text}</p>
-                </div>
+            </div>
+
+            {/* Floating element for "vibe" */}
+            <div className="absolute z-20 bottom-4 left-4 sm:bottom-6 sm:-left-6 bg-white p-3 sm:p-4 rounded-xl shadow-xl flex items-center gap-3 sm:gap-4 border border-border/50 animate-bounce" style={{ animationDuration: '3s' }}>
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center">
+                <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+              </div>
+              <div className="whitespace-nowrap">
+                <p className="text-sm font-bold text-brand-primary">{dict.hero.floatingBadge.title}</p>
+                <p className="text-xs text-brand-text/70">{dict.hero.floatingBadge.text}</p>
               </div>
             </div>
             

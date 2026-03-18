@@ -6,7 +6,9 @@
     "cta": "Hablemos"
   },
   "hero": {
+    "badge": "Especialistas en pequeños negocios",
     "title": "Creamos páginas web que atraen clientes a tu negocio.",
+    "titleHighlight": "clientes",
     "subtitle": "Deja de perder oportunidades porque tus clientes no te encuentran en internet. Diseñamos tu presencia digital de forma sencilla, rápida y optimizada para web y móviles.",
     "ctaPrimary": "Pide un presupuesto",
     "ctaSecondary": "Casos de éxito",
