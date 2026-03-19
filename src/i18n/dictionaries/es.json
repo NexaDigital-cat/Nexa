@@ -332,5 +332,14 @@
       ],
       "image": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80&w=2000"
     }
+  },
+  "metadata": {
+    "title": "Nexa Digital | Creación de Páginas Web y Digitalización de Negocios en Cataluña",
+    "description": "Ayudamos a negocios locales a crecer con páginas web profesionales y soluciones digitales. Diseño web, SEO local y digitalización en Cataluña. Contacta con Nexa Digital.",
+    "keywords": ["Creación páginas web", "Diseño web Cataluña", "Webs para autónomos", "Digitalización pymes", "Nexa Digital", "Diseño web Reus", "Diseño web Tarragona"],
+    "openGraph": {
+      "title": "Nexa Digital | Tu aliado digital en Cataluña",
+      "description": "Diseño de páginas web y estrategias digitales para autónomos y pymes."
+    }
   }
 }

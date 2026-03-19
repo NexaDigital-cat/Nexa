@@ -1,6 +1,7 @@
 "use client";
-
+ 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, MonitorPlay } from "lucide-react";
 
@@ -97,13 +98,15 @@ export function HeroSection({ dict, lang }: { dict: any; lang: string }) {
                 <div className="absolute inset-0 bg-gradient-to-tr from-brand-primary/5 to-brand-secondary/20" />
                 
                 {heroImages.map((img, index) => (
-                  <img
+                  <Image
                     key={img}
                     src={img}
                     alt={`Disseny Web i Desenvolupament ${index + 1}`}
-                    className={`absolute top-0 left-0 object-cover w-full h-full transition-opacity duration-1000 ${
+                    fill
+                    className={`object-cover transition-opacity duration-1000 ${
                       index === currentImage ? "opacity-100" : "opacity-0"
                     }`}
+                    priority={index === 0}
                   />
                 ))}
               </div>

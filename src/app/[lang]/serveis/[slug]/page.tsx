@@ -3,7 +3,25 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { ServiceHeroSection } from "@/components/sections/ServiceHeroSection";
 import { notFound } from "next/navigation";
+import { Metadata } from "next";
 import { CheckCircle2, Phone } from "lucide-react";
+ 
+export async function generateMetadata({
+  params,
+}: {
+  params: { lang: string; slug: string };
+}): Promise<Metadata> {
+  const { lang, slug } = await params;
+  const dict = await getDictionary(lang as "ca" | "es");
+  const service = dict.services.items.find((s: any) => s.slug === slug);
+  
+  if (!service) return {};
+  
+  return {
+    title: `${service.title} - Nexa Digital`,
+    description: service.description,
+  };
+}
 
 export default async function ServicePage({
   params,

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Phone, ArrowLeft, CheckCircle2 } from "lucide-react";
 
@@ -7,7 +8,7 @@ export function ServiceHeroSection({ dict, lang, service }: { dict: any; lang: s
       {/* Background Image with Dark Gradient Overlay */}
       {service.image ? (
         <div className="absolute inset-0 z-0">
-          <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
+          <Image src={service.image} alt={service.title} fill className="object-cover" priority />
           {/* Darker overlay at top so header text is readable, dense at bottom for CTA contrast */}
           <div className="absolute inset-0 bg-gradient-to-b from-[#0A1128]/85 via-[#0A1128]/70 to-[#0A1128]/90" />
         </div>

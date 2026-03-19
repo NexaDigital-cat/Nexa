@@ -1,6 +1,7 @@
 import { getDictionary } from "@/i18n/getDictionary";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import Image from "next/image";
 import { CheckCircle2, Phone, MapPin } from "lucide-react";
 import { Metadata } from "next";
 import Link from "next/link";
@@ -23,7 +24,7 @@ export default async function WebsCorporativesTarragonaPage({ params }: { params
       <main className="flex-1 bg-white">
         <section className="relative pt-40 pb-28 md:pt-52 md:pb-40 overflow-hidden text-white min-h-[75vh] flex flex-col justify-center">
           <div className="absolute inset-0 z-0">
-            <img src={pageData.image} alt={pageData.heroTitle} className="w-full h-full object-cover" />
+            <Image src={pageData.image} alt={pageData.heroTitle} fill className="object-cover" priority />
             <div className="absolute inset-0 bg-gradient-to-b from-[#0A1128]/85 via-[#0A1128]/70 to-[#0A1128]/90" />
           </div>
           <div className="container mx-auto px-4 relative z-10">
