@@ -42,6 +42,29 @@ export const JsonLd: React.FC<JsonLdProps> = ({ lang }) => {
     description: isCA 
       ? "Especialistes en creació de webs i digitalització per a autònoms i pimes a Catalunya."
       : "Especialistas en creación de webs y digitalización para autónomos y pymes en Cataluña.",
+    makesOffer: [
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: isCA ? 'Disseny Web' : 'Diseño Web',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: 'SEO Local',
+        },
+      },
+      {
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: isCA ? 'Digitalització' : 'Digitalización',
+        },
+      },
+    ],
   };
 
   const websiteSchema = {

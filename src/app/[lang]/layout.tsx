@@ -23,7 +23,10 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   const baseUrl = "https://nexadigital.cat";
   
   return {
-    title: dict.metadata.title,
+    title: {
+      default: dict.metadata.title,
+      template: "%s | Nexa Digital",
+    },
     description: dict.metadata.description,
     keywords: dict.metadata.keywords,
     authors: [{ name: "Nexa Digital" }],
@@ -37,10 +40,10 @@ export async function generateMetadata({ params }: { params: { lang: string } })
     },
     icons: {
       icon: [
-        { url: "/logo.png" },
+        { url: "/icon.png" },
         { url: "/favicon.ico", sizes: "any" },
       ],
-      apple: "/apple-touch-icon.png",
+      apple: "/apple-icon.png",
     },
     openGraph: {
       title: dict.metadata.openGraph.title,
@@ -51,7 +54,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
       type: "website",
       images: [
         {
-          url: "/logo.png",
+          url: "/icon.png",
           width: 800,
           height: 600,
           alt: "Nexa Digital Logo",
@@ -62,7 +65,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
       card: "summary_large_image",
       title: dict.metadata.openGraph.title,
       description: dict.metadata.openGraph.description,
-      images: ["/logo.png"],
+      images: ["/icon.png"],
     },
     robots: {
       index: true,

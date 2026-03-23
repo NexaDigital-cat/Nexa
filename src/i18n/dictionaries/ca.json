@@ -7,7 +7,7 @@
   },
   "hero": {
     "badge": "Especialistes en petits negocis",
-    "title": "Creem pàgines web que criden clients al teu negoci.",
+    "title": "Creem pàgines web que criden clients al teu negoci a Catalunya.",
     "titleHighlight": "clients",
     "subtitle": "Deixa de perdre oportunitats perquè els teus clients no et troben a internet. Dissenyem la teva presència digital de forma senzilla, ràpida i optimitzada per a web y dispositius mòbils.",
     "ctaPrimary": "Demana un pressupost",
@@ -335,11 +335,11 @@
   },
   "metadata": {
     "title": "Nexa Digital | Creació de Pàgines Web i Digitalització de Negocis a Catalunya",
-    "description": "Ajudem a negocis locals a créixer amb pàgines web professionals i solucions digitals. Disseny web, SEO local i digitalització a Catalunya. Contacta amb Nexa Digital.",
+    "description": "Ajudem negocis locals a créixer amb pàgines web professionals i solucions digitals. Disseny web, SEO local i digitalització a Catalunya. Contacta amb Nexa Digital.",
     "keywords": ["Creació pàgines web", "Disseny web Catalunya", "Webs per a autònoms", "Digitalització pimes", "Nexa Digital", "Disseny web Reus", "Disseny web Tarragona"],
     "openGraph": {
-      "title": "Nexa Digital | El teu aliat digital a Catalunya",
-      "description": "Disseny de pàgines web i estratègies digitals per a autònoms i pimes."
+      "title": "Nexa Digital | Creació de Pàgines Web i Digitalització",
+      "description": "Ajudem negocis locals a créixer amb webs professionals i solucions digitals a Catalunya."
     }
   }
 }
